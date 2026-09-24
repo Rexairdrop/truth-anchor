@@ -1,0 +1,79 @@
+/* frontend/src/App.css */
+body {
+  margin: 0;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 20px;
+}
+.connect-btn {
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: white;
+  box-sizing: border-box;
+}
+button {
+  background-color: #1f6feb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:disabled {
+  background-color: #21262d;
+  color: #8b949e;
+  cursor: not-allowed;
+}
+.status-terminal {
+  background-color: #000;
+  border: 1px solid #ff7b72;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 24px;
+}
+.status-banner {
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.state-ERROR { background-color: rgba(248, 81, 73, 0.15); color: #f85149; }
+.state-FINALIZED { background-color: rgba(56, 139, 253, 0.15); color: #58a6ff; }
+.error-box {
+  color: #f85149;
+  font-family: monospace;
+  margin-top: 10px;
+}

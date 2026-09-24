@@ -1,0 +1,12 @@
+.venv/
+venv/
+node_modules/
+frontend/node_modules/
+frontend/build/
+.env
+.env.*
+!.env.example
+.vercel/
+__pycache__/
+*.pyc
+artifacts/

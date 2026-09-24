@@ -1,0 +1,13 @@
+networks:
+  default: testnet_bradbury
+
+  testnet_bradbury:
+    accounts:
+      - "${ACCOUNT_PRIVATE_KEY_1}"
+    from: "${ACCOUNT_PRIVATE_KEY_1}"
+
+paths:
+  contracts: "contracts"
+  artifacts: "artifacts"
+
+environment: .env
