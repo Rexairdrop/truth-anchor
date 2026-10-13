@@ -10,3 +10,5 @@ frontend/build/
 __pycache__/
 *.pyc
 artifacts/
+.vercel
+.env*
