@@ -12,3 +12,9 @@ __pycache__/
 artifacts/
 .vercel
 .env*
+
+contracts/FlightInsurance.backup.txt
+fee-profile.json
+tests/fee_profile_test.py
+tests/debug_fd0.py
+tests/debug_pipe_fd0.py
